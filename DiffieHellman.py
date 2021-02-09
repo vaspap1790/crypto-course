@@ -1,4 +1,4 @@
-# Key Distribution (Asymmetric encryption to establish communication)
+# Key Distribution
 
 import math
 import random
