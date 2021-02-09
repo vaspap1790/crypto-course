@@ -101,10 +101,10 @@ print("CIPHER:", cipher)
 # cipher = modification(cipher)
 
 # Brute force Attack
-bf_key = brute_force(header.encode(), cipher)
-key = KeyStream(bf_key)
-message = encrypt(key, cipher)
-print("BRUTE FORCE ATTACK", message)
+# bf_key = brute_force(header.encode(), cipher)
+# key = KeyStream(bf_key)
+# message = encrypt(key, cipher)
+# print("BRUTE FORCE ATTACK", message)
 
 # Decrypt
 dkey = KeyStream(secret_key)
