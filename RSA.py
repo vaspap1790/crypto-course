@@ -1,4 +1,4 @@
-# Asymmetric encryption - used today for Key Distribution
+# Asymmetric encryption - used today for Key Distribution - Deterministic (same input->same output)
 # https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
 import math
